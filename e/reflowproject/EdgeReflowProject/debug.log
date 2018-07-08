@@ -1,0 +1,4 @@
+[0723/162310:ERROR:backend_impl.cc(2157)] Corrupt Index file
+[0723/162310:ERROR:cache_util_win.cc(43)] Unable to move the cache: 5
+[0723/162310:ERROR:backend_impl.cc(137)] Unable to move cache folder C:\Users\Family\AppData\Roaming\Adobe\Reflow\cef_data to C:\Users\Family\AppData\Roaming\Adobe\Reflow\old_cef_data_000
+[0723/162310:ERROR:backend_impl.cc(224)] Unable to create cache

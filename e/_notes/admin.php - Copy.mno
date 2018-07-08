@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Books" value="name:ID;datatype:int,name:BookName;datatype:string,name:BookAuthor;datatype:string,name:ALPHA;datatype:string,name:BookNameID;datatype:string,name:CoverName;datatype:string,name:Gendra;datatype:string,name:Date;datatype:timestamp" />
+	<infoitem key="UD_Login" value="name:ID;datatype:int,name:UserName;datatype:string,name:Password;datatype:string" />
+</info>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="background-image: url(C:/xampp/htdocs/Nust_cafe/img/vintage-concrete.png)">
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+  <a href="signup.html">Sign Up</a>
+  <a href="signin.html">Sign In</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <div class="search-container">
+    <div class="form-group top_search">
+          <input type="text" class="form-control" placeholder="Search..">
+        </div>
+  </div>
+</div>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-6"><h2><img src="img/logo.png" style="width: 10%;margin-right: 2%; margin-bottom: 1%;">HOOKA PANI</h2></div>
+<div class="col-md-6" >
+<div class="main">
+            <ul class="mainnav">
+                <li><a href="index.html">Home</a></li>
+                <li class="hassubs"><a href="#cafe">Main Cafe</a>
+                    <ul class="dropdown">
+                        <li class="subs"><a href="wall.html">The Wall</a></li>
+                        <li class="subs"><a href="jango.html">Jango</a></li>
+                        <li class="subs hassubs"><a href="c1.html">Concordia 1</a>
+                            <ul class="dropdown">
+                                <li class="subs"><a href="c1-stationary.html">Stationary Shop</a></li>
+                                <li class="subs"><a href="c1-mart.html">Mart</a></li>
+                                <li class="subs"><a href="c1-cafe.html">Cafetaria</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hassubs"><a href="c2.html">Boys' Cafe</a>
+                <ul class="dropdown">
+                                <li class="subs"><a href="c2-stationary.html">Stationary Shop</a></li>
+                                <li class="subs"><a href="c2-mart.html">Mart</a></li>
+                                <li class="subs"><a href="c2-cafe.html">Cafetaria</a></li>
+                </ul></li>
+                <li><a href="#">Contact</a></li>
+            <br style="clear: both;">
+</div>
+</div>
+</div>
+</div>
+
+<!-- headers end -->
+<br/><br/>
+<div class="container">
+	<div class="demo-1">
+		<div class="main">
+	<h2><center>Registration</center></h2>
+		</div>
+	</div>
+</div>
+<br/>
+<br/>
+
+<!-- Sign up Form -->
+
+<div class="container">
+  <center><form class="form-horizontal" action=" " method="post"  id="reg_form">
+    <fieldset>    
+      <div class="form-group">
+        <label class="col-md-5 control-label">First Name</label>
+        <div class="col-md-7  inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input  name="first_name" pattern="[A-Za-z]{3,}" required placeholder="First Name" class="form-control"  type="text">
+          </div>
+        </div>
+      </div>
+      <!-- Text input-->
+     <div class="form-group">
+        <label class="col-md-5 control-label" >Last Name</label>
+        <div class="col-md-6  inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input name="last_name" pattern="[A-Za-z]{3,}" required placeholder="Last Name" class="form-control"  type="text">
+          </div>
+        </div>
+      </div>
+           
+      <div class="form-group">
+        <label class="col-md-5 control-label">E-Mail</label>
+        <div class="col-md-6  inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="E-Mail Address" class="form-control"  type="text">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="form-group">
+        <label class="col-md-5 control-label">Phone #</label>
+        <div class="col-md-6  inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+            <input name="phone" pattern="[0-9]{4}-[0-9]{7}"  required placeholder="0301-6063167" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+            
+      <div class="form-group">
+        <label class="col-md-5 control-label">Address</label>
+        <div class="col-md-6  inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+            <input name="address" required placeholder="Address" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label class="col-md-5 control-label">NUST ID</label>
+        <div class="col-md-6  inputGroupContainer">
+          <div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+            <input name="phone" pattern="[0]{5}[0-9]{6}"  required placeholder="00000119988" class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-5 control-label">Picture </label>
+        <div class="col-md-6  inputGroupContainer" >
+          <div class="form-group">
+            <input style="float: left; margin-left: 3%;" type="file" name="file" id="file" required>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-md-5 control-label"></label>
+        <div class="col-md-4">
+          <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+        </div>
+      </div>
+     </fieldset>
+  </form></center>
+</div>
+
+
+<!-- /.container --> 
+
+
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>  
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<!-- Vendor Scripts -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

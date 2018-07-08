@@ -1,0 +1,43 @@
+@charset "utf-8";
+#formname {
+	height: auto;
+	width: 350px;
+	float: left;
+	text-align: center;
+	border: 2px ridge #900;
+	margin-right: 5px;
+}
+
+.textarea123 {
+	height: 200px;
+	width: 300px;
+	border: thin solid #900;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+}
+
+.formbars {
+	height: 30px;
+	width: 300px;
+	border: thin solid #900;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+	text-align: center;
+}
+
+#privacypolicy {
+	height: auto;
+	width: 633px;
+	float: left;
+	text-align: center;
+	font-family: Courier, "Courier New", Arial;
+	border: 2px groove #900;
+	padding: 2px;
+}
+
+h5 {
+	font-size:18px;	
+	margin:0;
+	color:#900;
+	padding:0;
+}

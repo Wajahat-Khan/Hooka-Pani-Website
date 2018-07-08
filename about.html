@@ -1,0 +1,128 @@
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About US</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background-image: url('nowbg.jpg');">
+
+
+
+    <nav style="background-color: #029DAB" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+          <a class="navbar-logo" style="margin:10px; margin-right: 50px;" href="#">
+            <!-- div -->
+            <img src="img/logo.png" style="max-height: 50px !important; width: auto; margin-right: 2%; margin-bottom: 1%;">
+            <span style="color: #fff; ">
+                Hookah Pani
+            </span>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="wall.html">The Wall</a>
+            </li>
+            <li><a href="jango.html">Jango</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="c1.html">Concordia 1<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="c1-stationary.html">Stationary Shop</a></li>
+                <li><a href="c1-mart.html">Mart</a></li>
+                <li><a href="c1-cafe.html">Cafetaria</a></li>
+              </ul>
+            </li>
+            <!-- <a  href="#cafe">Main Cafe</a> -->
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="c2.html">Boys' Cafe<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="c1-stationary.html">Stationary Shop</a></li>
+                <li><a href="c1-mart.html">Mart</a></li>
+                <li><a href="c1-cafe.html">Cafetaria</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a  data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="container">
+  <div class="demo-1">
+    <div class="main">
+  <h1><center>HOOKA PANI</center></h1>
+    </div>
+  </div>
+</div>  
+<!-- Dynamic pages -->
+<div class="container">
+<ul class="nav nav-tabs">
+    <li class="cntr"><a data-toggle="tab" href="#menu1">About Us</a></li>
+    <li class="cntr"><a data-toggle="tab" href="#menu2">Contact Us</a></li>
+    <li class="cntr"><a data-toggle="tab" href="#menu3">Privacy Policy</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Hooka Pani</h3>
+      <p>Hooka pani is an exclusive brand launch by the four emerging software engineers of nust.<br/> Currently this portal will be applied on all the cafe's and dhabas of Nust. We are planning to extend this to city level.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>About Us</h3>
+      <p>Hooka pani is an exclusive brand launch by the four emerging software engineers of nust.<br/> Currently this portal will be applied on all the cafe's and dhabas of Nust. We are planning to extend this to city level.<br/>
+      Wajahat Hussain, Irteza Khan, Muhammad Kaab and Talha Mahmood established this.</p>
+      <div class="col-md-3">
+        <img src="irteza.jpg" class="img-circle img-responsive" alt="Cinque Terre"  width="200px" height="200px" data-toggle="popover" tabindex="50" data-content="muhammad irteza khan" data-placement="right"/>>
+      </div>
+            <div class="col-md-3">
+        <img src="wajahat.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="200px" height="200px" data-toggle="popover" tabindex="50" data-content="wajahat hussain khan" data-placement="right"/>>
+      </div>
+            <div class="col-md-3">
+        <img src="talha.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="200px" height="200px" data-toggle="popover" tabindex="50" data-content="talha mahmood" data-placement="right"/>>
+      </div>
+            <div class="col-md-3">
+        <img src="kaab.jpg" class="img-circle img-responsive" alt="Cinque Terre" width="200px" height="200px" data-toggle="popover" tabindex="50" data-content="muhammad kaab" data-placement="right"/>>
+      </div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Contact US</h3>
+      <p>Wajahat Hussain 0308-6699805</p>
+      <p>Irteza Khan 0300-5682486</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Privacy Policy</h3>
+      <center><img src="img/pp.png"></center>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+$(function(){
+    $('[data-toggle=popover]').popover({
+      trigger: 'focus',
+      html: true,
+      title: 'shikra'
+}) 
+});
+</script>
+</body>
+</html>

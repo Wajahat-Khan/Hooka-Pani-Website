@@ -1,0 +1,135 @@
+html
+
+#slideshowu237
+{
+	z-index: 2;
+	width: 0.01px;
+	height: 404px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 20px;
+	left: 90px;
+}
+
+#u277
+{
+	position: absolute;
+	width: 820px;
+	height: 404px;
+	background-color: transparent;
+}
+
+#u277popup
+{
+	z-index: 3;
+}
+
+#u284
+{
+	z-index: 4;
+	width: 820px;
+	height: 404px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u278
+{
+	z-index: 6;
+	width: 820px;
+	height: 404px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u280
+{
+	z-index: 8;
+	width: 820px;
+	height: 404px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u282
+{
+	z-index: 10;
+	width: 820px;
+	height: 404px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u256-3
+{
+	position: absolute;
+	width: 20px;
+	min-height: 75px;
+	border-style: none;
+	border-color: transparent;
+	text-align: center;
+	line-height: 1.4;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	top: 167px;
+	background: transparent url("../images/leftarrow.png") no-repeat left top;
+}
+
+#u256-3popup
+{
+	z-index: 12;
+}
+
+#u305-3
+{
+	position: absolute;
+	width: 20px;
+	min-height: 75px;
+	border-style: none;
+	border-color: transparent;
+	text-align: center;
+	line-height: 1.4;
+	color: #999999;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	top: 167px;
+	left: 800px;
+	background: transparent url("../images/rightarrow.png") no-repeat left top;
+}
+
+#u305-3popup
+{
+	z-index: 15;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#u306
+{
+	z-index: 18;
+	width: 820px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 424px;
+	left: 90px;
+}
+
+

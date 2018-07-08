@@ -1,0 +1,254 @@
+@charset "utf-8";
+body {
+	margin: 0px 0px;
+	padding:0px;
+	text-align:center;
+}
+
+#table23 {
+	margin: 0;
+	float:left;
+}
+
+
+.container {
+	height: auto;
+	width: 1000px;
+	margin:0px auto;
+	text-align:left;
+	padding:0px;
+	
+}
+.banner {
+	float: left;
+	height: 100px;
+	width: 1000px;
+	background-color: #FFF;
+}
+.logo {
+	float: left;
+	height: 70px;
+	width: 224px;
+	margin-top: 15px;
+}
+.nav_buttons {
+	background-color: #FFF;
+	float: right;
+	height: 100px;
+	width: 776px;
+}
+
+.main {
+	background-color: #FFF;
+	float: left;
+	height: auto;
+	width: 1000px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+.footer {
+	background-color: #FFF;
+	float: left;
+	width: 1000px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #999;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+.Tabs {
+	float: left;
+	width: 500px;
+}
+.sub-heading {
+	background-color: #CCC;
+	float: left;
+	text-align: center;
+	height: auto;
+	width: 998px;
+	color: #666;
+	border: thin solid #999;
+	margin-top:10px;
+}
+.formsbase {
+	background-color: #CCC;
+	float: left;
+	text-align: center;
+	width: 1000px;
+	color: #666;
+	border: 2px solid #999;
+	padding-bottom: 20px;
+}
+.SearchA {
+	float: left;
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.searchB {
+	float: left;
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.textboxS {
+	height: 30px;
+	width: 250px;
+	border: thin solid #900;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+	text-align: center;
+}
+
+.buttonS {
+	height: 30px;
+	margin-bottom: 4px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.alpha {
+	float: left;
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+table {
+	margin-top: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: groove;
+	border-bottom-style: groove;
+	border-top-color: #900;
+	border-bottom-color: #900;
+
+	
+}
+
+td {
+	border-right-width: thin;
+	border-left-width: thin;
+	border-right-style: groove;
+	border-left-style: groove;
+	border-right-color: #900;
+	border-left-color: #900;
+	margin: 10px;
+}
+.TopHead{
+	color: #FFF;
+	background-color: #900;
+	font-size: 17px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.border {
+	border-right-width: thin;
+	border-left-width: thin;
+	border-right-style: groove;
+	border-left-style: double;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+}
+.gendraform {
+	float: left;
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.container .main table tr td a {
+	text-transform: uppercase;
+	color: #900;
+	font-weight: bold;
+	text-decoration: none;
+}
+.book1 {
+	float: left;
+	height:auto;	
+}
+
+.pic {
+	border: 2px solid #900;  
+  float: left;
+  margin: 20px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 2px 2px 2px #111;
+          box-shadow: 2px 2px 2px #111;  
+}
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.navpic {  
+  float: right;
+  margin: auto 1px auto 40px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 0 0 2px 2px #111;
+          box-shadow: 0 0 2px 2px #111; 
+}
+.navpic:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.active {
+	float: right;
+  margin: auto 1px auto 40px;
+  overflow: hidden;
+  
+  -webkit-box-shadow: 0 0 2px 2px #900;
+          box-shadow: 0 0 2px 2px #900;
+}	.nextback {
+	font-family: Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+	color: #900;
+	float: left;
+	width: 1000px;
+}
+.bookrequest {
+  	display: block;
+  	float: left;
+  	width : 120px;
+	width:1000px;
+	height:auto;    
+	
+}
+
+#wowslider-container1 {
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+
+#wowslider-container2 {
+	border: thin solid #900;
+}
+#basecamp {
+	margin: 20px;
+}
+#detailcontenet {
+	text-align:left;
+	padding: 21px;
+	font-family:Courier, "Courier New", Arial;
+}

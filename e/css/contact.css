@@ -1,0 +1,27 @@
+@charset "utf-8";
+#formname {
+	height: auto;
+	width: 940px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.textarea123 {
+	height: 200px;
+	width: 300px;
+	border: thin solid #900;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;	
+}
+
+.formbars {
+	height: 30px;
+	width: 300px;
+	border: thin solid #900;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #900;
+	text-align: center;
+}
